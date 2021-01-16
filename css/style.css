@@ -157,25 +157,14 @@ img {
 .auth-nav .link:focus {
   color: var(--accentcolor);
 }
-.aut-svg-envelope {
+.aut-svg {
   width: 16px;
   height: 16px;
   margin-right: 10px;
   fill: #757575;
 }
-.aut-svg-smartfone {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-
-  fill: #757575;
-}
-.auth-nav .link:hover .aut-svg-smartfone,
-.auth-nav .link:focus {
-  fill: var(--accentcolor);
-}
-.auth-nav .link:hover .aut-svg-envelope,
-.auth-nav .link:focus {
+.auth-nav .link:hover .aut-svg,
+.auth-nav .link:focus .aut-svg {
   fill: var(--accentcolor);
 }
 /*===============шапка===============*/

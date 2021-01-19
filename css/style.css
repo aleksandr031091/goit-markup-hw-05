@@ -322,9 +322,8 @@ img {
   height: 70px;
   padding-top: 27px;
   padding-bottom: 27px;
-  Weight 700;
-  
-  font-weight: bold;
+
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   text-align: center;
@@ -368,7 +367,7 @@ img {
   color: #757575;
 }
 .card-person {
-  width: calc((100% / 4) / 30px);
+  width: calc(100% / 4 - 30px);
   margin-top: 30px;
   margin-left: 30px;
 
@@ -420,7 +419,8 @@ img {
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .company-box .company {
   display: flex;
@@ -736,13 +736,12 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-
 
 /*===============модальное окно===============*/
